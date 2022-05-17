@@ -29,4 +29,9 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-npm install -g ikea-availability-checker
+
+
+npx ikea-availability-checker@2.0.0-alpha.3 stock --store 418 30334318 70334302 20404279 30404274 40295533 00404242
+npx ikea-availability-checker@2.0.0-alpha.3 stock --store 466 00404242 20404279 30404274 40295533
+npx ikea-availability-checker@2.0.0-alpha.3 stock --store 418,466 30404293 60356988 60347178 20473550
+
